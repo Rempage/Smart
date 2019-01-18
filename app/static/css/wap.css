@@ -147,3 +147,29 @@ hr {
 body {
     background: #f7f5f5;
 }
+
+.light {
+    padding: 0.2rem;
+}
+
+.light_on {
+    float: left;
+    width: calc(50% - 0.1rem);
+    height: 3.45rem;
+    background: #ff3366;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 3.55rem;
+    text-align: center;
+}
+
+.light_off {
+    float: right;
+    width: calc(50% - 0.1rem);
+    height: 3.45rem;
+    background: #999;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 3.55rem;
+    text-align: center;
+}

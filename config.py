@@ -22,7 +22,7 @@ class Release:
     SECRET_KEY = '\xc3m\x0e\xae\x1c\xcbs\x06pF\xa8\xe1\x84o\xaf\xe90\x00R=j\xce\x93&'
     UPLOADS_DEFAULT_DEST = basedir + '/app/static'
     FLASKY_ADMIN = '13167288970'
-    SERVER_NAME = 'm.antporters.com'
+    SERVER_NAME = 'www.smart.com'
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:lYp926233@127.0.0.1/share'
     DEBUG = False
     TESTING = False
