@@ -8,8 +8,17 @@
 
 {% block content %}
     <div class="light clearfix">
-        <div class="light_on" onclick="smart.light('on')">开</div>
-        <div class="light_off" onclick="smart.light('off')">关</div>
+        <h3 class="text_c m_t_50">卧室夜灯</h3>
+        <div class="m_t_100 clearfix">
+            <div class="light_on" onclick="smart.light('on')">开</div>
+            <div class="light_off" onclick="smart.light('off')">关</div>
+        </div>
+        <h5 class="text_c m_t_50">灯光强度</h5>
+        <ul class="level">
+            <li class="btn_nor" onclick="smart.level(this, 0)">低</li>
+            <li class="btn_sel" onclick="smart.level(this, 1)">中</li>
+            <li class="btn_nor" onclick="smart.level(this, 2)">高</li>
+        </ul>
     </div>
 {% endblock %}
 

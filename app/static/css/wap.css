@@ -141,11 +141,24 @@ hr {
 .pos_a {position: absolute}
 .pos_f {position: fixed}
 
+.m_t_50 {margin-top: 0.5rem}
+.m_t_100 {margin-top: 1rem}
 
 /**/
 /**/
 body {
     background: url(../img/bg.png);
+}
+
+.btn_sel {
+    background: #ff3366;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn_nor {
+    background: #999999;
+    color: #fff;
 }
 
 .light {
@@ -161,6 +174,7 @@ body {
     font-size: 1.5rem;
     line-height: 3.55rem;
     text-align: center;
+    border-radius: 1.725rem;
 }
 
 .light_off {
@@ -172,4 +186,19 @@ body {
     font-size: 1.5rem;
     line-height: 3.55rem;
     text-align: center;
+    border-radius: 1.725rem;
+}
+
+.light .level {
+    padding: 0 0.4rem;
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.light .level li {
+    padding: 0.3rem;
+    font-size: 0.4rem;
+    border-radius: 50%;
 }

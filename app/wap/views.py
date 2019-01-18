@@ -11,3 +11,7 @@ def index():
 @wap.route('/light/<state>')
 def light(state):
     return jsonify({'succ': 1, 'state': state})
+
+@wap.route('/light/level/<level>')
+def lightLevel(level):
+    return jsonify({'succ': 1, 'state': level})
