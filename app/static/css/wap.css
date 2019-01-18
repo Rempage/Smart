@@ -145,7 +145,7 @@ hr {
 /**/
 /**/
 body {
-    background: #f7f5f5;
+    background: url(../img/bg.png);
 }
 
 .light {
