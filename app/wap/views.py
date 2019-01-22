@@ -34,9 +34,7 @@ def voice(text):
     contentType = r.headers['Content-Type']
     print(contentType)
     if contentType == "audio/mpeg":
-        sid = r.headers['sid']
         if AUE == "raw":
-            print(r.content)
             fileName = '%s.wav' % str(int(time.time()))
             filePath = './app/static/audio/%s' % fileName
             writeFile(filePath, r.content)
