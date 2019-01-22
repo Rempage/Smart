@@ -6,7 +6,7 @@ class Config:
     SECRET_KEY = '1234567890123456789012345678901234567890'
     UPLOADS_DEFAULT_DEST = basedir + '/app/static'
     FLASKY_ADMIN = '13167288970'
-    SERVER_NAME = '192.168.50.102:5000'
+    SERVER_NAME = '192.168.0.147:5000'
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:19920720@127.0.0.1/smart'
     DEBUG = True
     if not os.path.exists(UPLOADS_DEFAULT_DEST):

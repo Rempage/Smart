@@ -1,4 +1,4 @@
-#!/home/pi/webserver/smart/venv/bin/python
+#!/Users/lihao/Documents/Python/smart/venv/bin/python
 
 import sys
 import getopt
