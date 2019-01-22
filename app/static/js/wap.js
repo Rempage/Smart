@@ -5,7 +5,6 @@ smart = {
             url: url,
             success: function (data) {
                 if (data['succ'] === 1) {
-                    alert(data['state'])
                 }
             }
         })
@@ -18,7 +17,6 @@ smart = {
             url: url,
             success: function (data) {
                 if (data['succ'] === 1) {
-                    alert(data['state'])
                 }
             }
         })

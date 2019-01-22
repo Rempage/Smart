@@ -22,6 +22,10 @@ def index():
 
 @wap.route('/light/<state>')
 def light(state):
+    if state == 'on':
+        os.system('/usr/bin/python3 /home/pi/python/jdq_on.py')
+    else:
+        os.system('/usr/bin/python3 /home/pi/python/jdq_off.py')
     return jsonify({'succ': 1, 'state': state})
 
 @wap.route('/light/level/<level>')
